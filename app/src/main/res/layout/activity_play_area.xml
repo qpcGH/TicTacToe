@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayArea"
+    android:background="#B9C5D1">
+    <LinearLayout
+        android:id="@+id/line_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Player1Score"
+            android:text=""
+            android:textSize="22sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Player2Score"
+            android:text=""
+            android:textSize="22sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Draw"
+            android:text=""
+            android:textSize="22sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TurnDisplay"
+        android:text=""
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/board"
+
+        />
+    <LinearLayout
+        android:id="@+id/line_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box1"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box2"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box3"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/line_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/line_1"
+
+
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box4"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box5"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box6"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/line_2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box7"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box8"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box9"
+            android:text=" "
+            android:textSize="60sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/line_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_below="@id/line_3"
+
+
+        >
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Reset"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+
+            />
+        <Button
+            android:id="@+id/back"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Go Back"
+            android:textSize="22sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

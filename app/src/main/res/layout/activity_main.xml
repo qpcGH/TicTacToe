@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#B9C5D1"
+    >
+    <TextView
+        android:id="@+id/welcomeTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To TicTacToe"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        />
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTag"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/bbb" />
+
+    <LinearLayout
+        android:id="@+id/line_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+
+        >
+        <TextView
+
+            android:id="@+id/p1NameTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player1:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+
+            />
+
+        <EditText
+            android:id="@+id/p1Name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:hint="Player1 Name"
+            android:inputType="text"
+            android:maxLength="10"
+            android:textSize="22sp"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/line_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+      android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+
+        >
+        <TextView
+
+            android:id="@+id/p2NameTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player2:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+
+
+
+            />
+
+        <EditText
+            android:id="@+id/p2Name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p1NameTag"
+            android:hint="Player2 Name"
+            android:inputType="text"
+            android:maxLength="10"
+            android:textSize="22sp"
+
+
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@id/line_2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:id="@+id/playbtn"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>
+
+
+
+
